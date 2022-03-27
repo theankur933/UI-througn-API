@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+         background: #ebebeb;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+.main{
+    margin: 16% 0 0 5%;
+    display: flex;
+}
+
+.container img{
+    width: 8.4cm;
+    height: 4cm;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.container h2{
+    font-size: larger;
+    width: 78%;
+}
+
+span{
+    transition: 0.3s linear;
+    line-height: 2;
+    font-weight: bold;
+}
+
+span:hover{
+    color: red;
+}
+
+@media only screen and (max-width: 500px){
+	.main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
