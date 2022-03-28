@@ -30,13 +30,13 @@ a{
     width: 78%;
 }
 
-span{
+.container a{
     transition: 0.3s linear;
     line-height: 2;
     font-weight: bold;
 }
 
-span:hover{
+.container a:hover{
     color: red;
 }
 
